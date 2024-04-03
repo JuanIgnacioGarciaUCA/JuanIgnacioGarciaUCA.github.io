@@ -1,1 +1,1015 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+<!-- Inicio heading-->
+<div id="head_de_pagina">
+
+    <title>Guía de buenas prácticas - Cultivo variedad Pedro Ximénez - Marco de Jerez</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    bottom:0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+
+/* Toggle between adding and removing the "responsive" class to the navbar when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myNavbar");
+    if (x.className === "w3-navbar") {
+        x.className += " responsive";
+    } else {
+        x.className = "w3-navbar";
+    }
+}
+</style>
+
+
+</div>
+<!-- Fin heading-->
+</head>
+
+
+<!-- Navbar-->
+<div id="nav_bar">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+        </script>
+        
+        <!-- Navbar -->
+        <!-- <div class="w3-top"> -->
+        <div>
+            <div class="w3-top w3-bar w3-white w3-card-2" id="myNavbar">
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-left w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a href="#presentacion" class="w3-bar-item w3-button">Presentación</a>
+            </div>
+        
+            <div class="w3-dropdown-hover w3-hide-small">
+            <a href="#cultivo" class="w3-bar-item w3-button">Cultivo de la Vid</a>
+            </div>
+        
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a href="#control" class="w3-bar-item w3-button">Control y Certificación Ecológicos</a>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a href="#practicas" class="w3-bar-item w3-button">Prácticas recomendadas</a>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a href="#experiencia" class="w3-bar-item w3-button">Experiencia Piloto (W&amp;H)</a>
+            </div>
+            
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            </div>
+        </div>
+        
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-top w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium" style="margin-top:46px;">
+            <a href="#presentacion" class="w3-bar-item w3-button ">Presentación</a>
+            <a href="#cultivo" class="w3-bar-item w3-button ">Cultivo de la Vid</a>
+            <a href="#control" class="w3-bar-item w3-button ">Control y Certificación Ecológicos</a>
+            <a href="#practicas" class="w3-bar-item w3-button ">Prácticas recomendadas</a>
+            <a href="#experiencia" class="w3-bar-item w3-button ">Experiencia Piloto (Williams&amp;Humbert)</a>
+        </div>
+</div>
+<!-- Fin Navbar-->
+      
+<!-- Heading Image-->
+<div id="heading_image">
+    <div class="w3-content"content style="max-width:2000px">
+    <div class="w3-display-container w3-center">
+        <img/ src="./img/portada3.jpeg" style="width: 100%;">
+    </div>
+    </div>  
+    </div>
+<!-- Fin Heading Image-->
+    
+
+
+
+
+
+<!-- Presentacion -->
+<div id="presentacion">
+    <div class="w3-content">  
+        <div class="w3-panel">
+            <div class="w3-row">
+                <div class="w3-threequarter">
+                    <h2>GUÍA DE BUENAS PRÁCTICAS</h2>
+                    <h3>CULTIVO DE LA VARIEDAD PEDRO XIMÉNEZ PARA ELABORAR VINOS DULCES ECOLÓGICOS EN EL MARCO DE JEREZ</h3>
+                </div>
+                <div class="w3-quarter w3-right w3-right">
+                    <a href='https://agriculture.ec.europa.eu/common-agricultural-policy/rural-development_es' target="_blank"><img src="./img/EUROPA_invierterural1.gif" width="75%"></a>
+                    <a href='https://invitecpx.ecovalia.org/' target="_blank"><img src="./img/goPX.png" width="75%"></a>
+                </div>
+            </div>
+            <br>
+            <div>
+                Presentación
+                La Guía de Buenas Prácticas ha sido elaborada en el marco del proyecto INVITEC-PX: Cultivo de la
+                variedad Pedro Ximénez para elaborar vinos dulces ecológicos en el Marco de Jerez puesto en
+                marcha por la Diputación de Cádiz, el Consejo Regulador de Jerez, Ecovalia, Williams&Humbert y la
+                Universidad de Cádiz.
+                Este proyecto innovador ha sido financiado con Fondos Europeos Agrícolas de Desarrollo Rural
+                (FEADER) y de la Junta de Andalucía en la convocatoria para el Funcionamiento de Grupos
+                Operativos Regionales de la Asociación Europea de Innovación en Materia de Productividad y
+                Sostenibilidad Agrícola (EIP AGRI) de 2020.
+                Esta guía recopila información práctica para la conversión y gestión de un viñedo en producción
+                ecológica, resaltando las prácticas vitícolas que se están empleando en el Marco de Jerez y las más
+                recomendables.
+            </div>
+            <br><p></p>
+            <div style="font-size: 10px;">
+                Autores: Ana Jiménez Cantizano, Juan Ignacio García García y Ecovalia.<br>
+                Colaboradores: Antonio Amores Arrocha, Juan Manuel Pérez González, Saray Gutiérrez Gordillo, Enrique Montero Millán.<br>
+                Fotografías: Williams & Humbert, Saturnino Pérez Moreno, Auxiliadora Vecina Jiménez y Ana Jiménez Cantizano.<br>
+                Edita: Asociación Ecovalia.<br>
+                Depósito legal: SE xxxx-2024
+            </div>
+            <br><p></p>
+            <!-- Foot Image-->
+            <div id="sponsors" class="w3-row">
+                <div class="w3-twothird w3-container">
+                    <div class="w3-opacity">
+                        SOCIOS:
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-col"  style="width:20%">
+                            <a href="https://www.dipucadiz.es/" target="_blank"><img src="./img/Logodipucadiz.svg.png" width="65%;"></a>
+                        </div>
+                        <div class="w3-col"  style="width:20%">
+                            <a href="https://www.sherry.wine/es/marco-de-jerez/el-consejo-regulador" target="_blank">
+                                <img src="./img/denominacionOrigen.jpg" width="40%;"></a>
+                        </div>
+                        <div class="w3-col"  style="width:20%">
+                            <a href="https://www.ecovalia.org/" target="_blank"><img src="./img/logo-ecovalia.png" width="65%;"></a>
+                        </div>
+                        <div class="w3-col"  style="width:20%">
+                            <a href="https://www.uca.es" target="_blank"><img src="./img/uca1.jpg" width="40%;"></a>
+                        </div>
+                        <div class="w3-col"  style="width:20%">
+                            <a href="https://www.williams-humbert.com/" target="_blank"><img src="./img/wh.png" width="45%;"></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="w3-third w3-container">
+                    <div class="w3-opacity">
+                        FINANCIADO POR:
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-third w3-container">
+                            <a href="https://www.juntadeandalucia.es/organismos/agriculturapescaaguaydesarrollorural.html" target="_blank"><img src="./img/logo-ja.png" width="130%;"></a>
+                        </div>
+                        <div class="w3-third w3-container">
+                            <a href="https://agriculture.ec.europa.eu/index_es" target="_blank"></a><img src="./img/ue.png" width="100%;"></a>
+                        </div>
+                        <div class="w3-third w3-container">
+                            <a href="https://iticadiz.es/" target="_blank"><img src="./img/iti_imagen_corporativa_cadigrafia-04.jpg" width="110%;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Foot Image-->
+
+        </div>
+    </div>
+    <img src="./img/presentacionAbajo.jpg" style="width: 100%; opacity: 0.7;">
+</div>
+<!-- Fin Presentacion -->
+
+
+<!-- Cultivo -->
+<div id="cultivo">
+    <div class="w3-content">
+        <div class="w3-panel w3-justify">
+            <h2><p><p><p>Cultivo de la vid en producción ecológica</h2>
+            <div>
+                La producción de vino ecológico en España experimenta un crecimiento sostenido en los últimos años, posicionándose 
+                como un sector en auge y con un futuro prometedor. 
+                <p>
+                Según los datos del MAPA (2023), España cuenta con 149.934 ha de viñedos ecológicos, esta cifra representa 
+                un crecimiento del 40% en los últimos cinco años. 
+                <p>
+                Esta clara tendencia responde a la creciente demanda de consumidores que buscan productos saludables, 
+                sostenibles y respetuosos con el medio ambiente.
+                <p>
+                Andalucía, con sus vastas extensiones y su clima favorable, se ha convertido en una de las regiones
+                pioneras en la producción ecológica, representando el 50% del total de la superficie española
+                dedicada a la producción ecológica.
+                <p>
+                La comunidad autónoma de Andalucía, con su variedad de suelos y microclimas, y junto a la
+                experiencia de sus viticultores, produce una amplia gama de vinos ecológicos de alta calidad. En la
+                actualidad, cuenta con 1.490 hectáreas de viñedos ecológicos (MAPA, 2023).
+                <p>
+                En el contexto andaluz, Cádiz destaca como la
+                provincia con mayor superficie dedicada al
+                viñedo ecológico, superando las 550 hectáreas, lo
+                que representa el 36% del total de superficie de viña
+                ecológica en Andalucía. Esta posición de liderazgo se
+                explica por las condiciones climáticas y edafológicas
+                idóneas del Marco de Jerez, que favorecen la
+                viticultura sostenible.
+                <p>
+                <div>
+                    <div class="w3-row">
+                        <div class="w3-third w3-panel">
+                            <img src="./img/espania.png" style=""><br>
+                        </div>
+                        <div class="w3-third w3-panel">
+                            <img src="./img/andalucia.png" style=""><br>
+                        </div>
+                        <div class="w3-third w3-panel">
+                            <img src="./img/cadiz.png" style=""><br>
+                        </div>
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-third w3-panel">
+                            España es el segundo país europeo en superficie ecológica (149.934 ha viña Eco).
+                        </div>
+                        <div class="w3-third w3-panel">
+                            Andalucía es la primera comunidad
+                            española en superficie ecológica (1490 viña Eco).
+                        </div>
+                        <div class="w3-third w3-panel">
+                            El 46% de la S.A.U en
+                            Cádiz es Ecológica (550 ha viña Eco).
+                        </div>
+                    </div>
+                </div>
+                <p>
+                En resumen, la producción de vino ecológico en Cádiz se perfila como un sector dinámico y en expansión, 
+                con un enorme potencial para conquistar tanto los mercados nacionales como los internacionales.
+                <p>
+                En el transcurso del último año, la superficie de viñedos ecológicos ha experimentado un notable 
+                incremento del 13% (MAPA, 2023), lo que subraya la dinámica expansiva de este sector. 
+                <p>
+                La calidad, la sostenibilidad y el sabor único de
+                sus vinos ecológicos constituyen los pilares que
+                sustentan este crecimiento y que auguran un
+                futuro brillante para la viticultura gaditana.
+            </div>
+        </div>
+    </div>
+    <img src="./img/cultivoAbajo2.jpeg" style="width: 100%; opacity: 0.7;">
+</div>
+
+
+<!-- Control -->
+<div id="control">
+    <div class="w3-content">
+        <div class="w3-panel w3-justify">
+            <h2><p><p><p>Control y certificación ecológicos.</h2>
+            <div>
+                LA CERTIFICACIÓN EN PRODUCCIÓN ECOLÓGICA
+                <p></p>
+                La certificación de un producto consiste en la
+                verificación de los requisitos de una norma por una
+                tercera parte independiente y acreditada.
+                La producción ecológica cuenta con una normativa común para toda Europa (Reglamento (UE)
+                2018/848). Esta norma pública define, entre otras cosas, qué prácticas agronómicas son
+                recomendables o están prohibidas y cuáles son los productos fitosanitarios y fertilizantes que
+                podemos utilizar en nuestra viña, si fuera necesario.
+                <p></p>
+                Para conseguir el certificado válido para la
+                comercialización de uva ecológica, nuestro producto
+                ha debido pasar antes por el proceso de
+                certificación.
+                <p>
+                La certificación de un producto consiste en la
+                verificación de los requisitos de una norma por una
+                tercera parte independiente y acreditada.
+                <p>
+                En Andalucía, el control y certificación de la producción ecológica recae en los organismos de
+                control privados. Igualmente, el organismo de control debe estar autorizado por la autoridad
+                competente, cumplir la norma en vigor y estar acreditados por ENAC.                    
+                <p>
+                <h3>ETAPAS DEL PROCESO DE CERTIFICACIÓN</h3>
+                El proceso de certificación es el conjunto de etapas a seguir para que dicho producto pueda ser
+                comercializado como ecológico.
+                <p></p>
+                Etapas del proceso de certificación:
+                <div class="w3-row w3-sand w3-round-xlarge">
+                    <ul class="w3-ul w3-half">
+                        <li>Solicitud de inicio de actividad.</li>
+                        <li>Revisión de la solicitud.</li>
+                        <li>Realización de auditoría.</li>
+                        <li>Emisión de informe de auditoría.</li>
+                        <li>Evaluación de informe de auditoría y emisión del certificado, si
+                        procede.</li>
+                        <li>Programa de seguimiento.</li>
+                    </ul>
+                    <div class="w3-half">
+                        <img src="./img/vi_25.png" class="w3-round-xlarge">
+                    </div>
+                </div>
+                <h4><b>Solicitud de inicio de la actividad que
+                    el operador presenta al organismo de
+                    control.</b></h4>
+                <div class="w3-row">
+                    <div class="w3-twothird">
+                    La persona (física o jurídica) interesada en
+                    certificar su uva como ecológica, deberá
+                    notificar al organismo de control en quien
+                    haya delegado la responsabilidad de los
+                    controles oficiales, su deseo de iniciar la
+                    actividad. A partir de este momento, la
+                    persona interesada pasa a conocerse como
+                    “operador/a”.<p></p>
+                    El organismo de control contará con un
+                    formulario para realizar la solicitud de inicio
+                    donde el operador deberá cumplimentar
+                    sus datos de contacto, datos identificativos
+                    de las parcelas, planos, descripción de la
+                    explotación, su entorno y el sistema de
+                    autocontrol.
+                    </div>  
+                    <div class="w3-third w3-panel">
+                        <img src="./img/ri_37.jpeg" width="100%" class="w3-round-large">
+                    </div>
+                </div>
+
+                <h4><b>Revisión de la solicitud por parte del organismo de control.</b></h4>
+                Personal cualificado del organismo de control revisará la solicitud y documentación adjunta que
+                haya presentado el interesado. Igualmente, personal técnico cualificado comprobará que la finca
+                cumple con los requisitos que la normativa europea sobre producción ecológica requiere.<p></p>
+                El resultado de esta revisión podrá ser “conforme”, “pendiente” (cuando está incompleta) o “no
+                conforme” (cuando la solicitud no es acorde con los criterios de la producción ecológica en la Unión
+                Europea el interesado no ha facilitado la información necesaria para poder valorar la idoneidad de
+                la solicitud.
+
+                <h4><b>Realización de Auditoría por parte del organismo de control.</b></h4>
+                El organismo de control designará a un auditor la visita a la finca y sus instalaciones. En esta visita el
+                auditor realizará una auditoría documental y física, tanto del sistema de autocontrol del operador,
+                así como del proceso productivo.<p></p>
+                El operador deberá tener a disposición del auditor los registros documentales tales como: facturas,
+                albaranes, contratos de los servicios subcontratados, cuaderno de explotación.<p></p>
+                El auditor deberá poder acceder a cualquier zona, en el ámbito de la finca e instalaciones que
+                considere, pudiendo tomar cualquier tipo de evidencias que estime necesaria. Además, el auditor
+                podría tomar muestras (suelo, material vegetal, fruto…) para la comprobación de que se controlan
+                los riesgos detectados o para evidenciar prácticas no conformes con la reglamentación.
+                <p></p>
+                Finamente, el auditor comunica al operador el resultado de la auditoría a través del informe de
+                auditoría.
+
+                <h4><b>Emisión del informe de auditoría por parte del auditor del organismo de control.</b></h4>
+                En el caso de haber detectado incumplimientos se reflejarán en el informe de auditoría. En ese
+                caso, el operador deberá presentar como respuesta el alcance de la desviación, el destino de la
+                producción afectada, el análisis de causa, las acciones correctivas y el plazo de implantación.
+                <img src="./img/emisioninforme.jpeg" class="w3-round-large" width="100%">
+
+                <h4><b>Evaluación del informe de auditoría y emisión del certificado de conformidad, en su caso,
+                    por parte de la Comisión de Certificación del organismo de control.</b>
+                </h4>
+                La Comisión de Certificación del organismo de control es el órgano con potestad para conceder,
+                aplazar o denegar el certificado del producto.
+
+                Cuando se dan las condiciones legales adecuadas para la concesión de la certificación, se emite al
+                operador, junto con la decisión de certificación, un documento denominado “Certificado de
+                conformidad”.
+
+                El certificado de conformidad es el documento válido para poder realizar cualquier transacción
+                comercial de productos ecológicos, sólo puede ser usado por su titular y para los productos y
+                categorías que en él se reflejen.
+                <h4><b>Programa de seguimiento del organismo de control.</b></h4>
+                Una vez emitida la certificación, esta se irá renovando tras la realización de posteriores auditorías,
+                al menos una vez al año, y otras en base al riesgo que posea el operador en la finca.<p></p>
+                Este proceso se repetirá mientras el operador renueve anualmente los compromisos adquiridos
+                con el organismo de control y cumpla con la normativa vigente.
+                <h4>PERÍODO DE CONVERSIÓN</h4>
+                <div class="w3-row">
+                    <div class="w3-twothird">
+                        Para las explotaciones que inician su actividad
+                        en producción ecológica, la normativa
+                        establece que deben pasar por un período de
+                        conversión antes de hacer uso del término
+                        “ecológico” en la comercialización de sus
+                        productos.<p></p>
+                        Durante este periodo de tiempo, los productos
+                        procedentes de esas fincas no podrán hacer
+                        uso de la indicación “agricultura ecológica”,
+                        pero deben cumplir con todos los requisitos
+                        que establece la normativa en vigor.<p></p>
+                        Este periodo de tiempo no es siempre el
+                        mismo. La norma establece que para la viña,
+                        serán productos ecológicos aquellos
+                        recolectados tres años después del inicio del
+                        período de conversión.
+                    </div>
+                    <div class="w3-third w3-panel">
+                        <img src="./img/ri_47.jpeg" width="100%" class="w3-round-large">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="./img/controlAbajo.jpg" style="width: 100%; opacity: 0.8;">
+</div>
+
+
+<!-- Practicas -->
+<div id="practicas">
+    <p><p><p></p>
+    <div class="w3-content">
+        <div class="w3-panel w3-justify">
+            <h2><p><p><p>Prácticas vitícolas recomendadas para el
+                cultivo ecológico.</h2>
+            <div>
+                La viticultura ecológica, biológica u orgánica, promueve la producción de uva de calidad mediante el
+                empleo de variedades de vid adaptadas a las condiciones agroclimáticas locales, seleccionando
+                técnicas de manejo sostenibles con el fin de preservar los recursos naturales y promover la salud
+                del suelo, de las plantas y de las personas involucradas en la producción vitícola. Con este tipo de
+                gestión se pretende generar un equilibrio entre el medio natural y el cultivo minimizando el
+                impacto al medio ambiente.
+                <p></p>
+                Entre las diferentes prácticas culturales que se recomiendan para la producción de uva ecológica,
+                destacan aquellas que fomentan la diversidad biológica del viñedo, mejoran la fertilidad del suelo y
+                permiten un control de hierbas, plagas y enfermedades excluyendo los productos químicos de
+                síntesis.
+            </div>
+            <h3>En el Marco de Jerez para la producción de uva ecológica se registran las
+                siguientes prácticas:
+            </h3>
+            <div class="w3-row w3-panel">
+                <div class="w3-twothird">
+                    <b>Fertilización del viñedo con materiales
+                        orgánicos como el compost, restos de
+                        poda y abonos verdes.</b>
+                    Como ya hemos
+                    comentado anteriormente, de entre las
+                    prácticas en producción ecológica, es muy
+                    importante mantener e incrementar la
+                    fertilidad y la actividad biológica del suelo,
+                    ya que es una de las bases de este
+                    sistema productivo. Mejorar la vida del
+                    suelo no sólo nos asegurará la nutrición
+                    de las plantas, sino también su mejor
+                    adaptación a factores bióticos y abióticos
+                    (problemas fitopatológicos, situaciones
+                    climáticas extremas).
+                </div>
+                <div class="w3-third w3-panel">
+                    <img src="./img/compost.jpg" class="w3-round-large" width="100%">
+                </div>
+            </div>
+            <p></p>
+            <div class="w3-row w3-panel">
+                <div class="w3-twothird">
+                    <b>Manejo del suelo con implantación de cubiertas vegetales</b> o incorporación de restos
+                    orgánicos como cubiertas inertes, tipo “mulching”, y el laboreo del suelo, con prácticas como el
+                    aserpiado, La práctica del aserpiado tiene el objeto de evitar escorrentías y retener el agua de
+                    lluvia, permitiendo que la tierra albariza pueda absorber la mayor cantidad de agua posible.
+                </div>
+                <div class="w3-third w3-panel">
+                    <img src="./img/cubiertas.jpg" class="w3-round-large" width="100%">
+                </div>
+            </div>
+            <p></p>
+            <div class="w3-row w3-panel">
+                <div class="w3-twothird">
+                <b>Cultivo de especies arbóreas y arbustivas</b> en los
+                márgenes de las parcelas, para incrementar la
+                diversidad biológica de especies en el viñedo y servir
+                de pantallas con los cultivos colindantes.
+                </div>
+                <div class="w3-third w3-panel">
+                    <img src="./img/especiesArboreas.jpg" class="w3-round-large" width="100%">
+                </div>
+            </div>
+            <p></p>
+            <div class="w3-row w3-panel">
+                <div class="w3-twothird">
+                <b>Podas en seco y en verde</b> para controlar del
+                rendimiento y mejorar el equilibrio de la cepa, alargar
+                la vida de las plantas y reducir la afección de las
+                enfermedades de madera de la vid. El sistema de
+                poda en seco tradicional del Marco de Jerez es
+                conocido con el nombre de “vara y pulgar” o “poda de
+                jerez”. Esta poda se realiza en invierno y se caracteriza
+                porque minimiza el número de cortes, y estos se
+                realizan de forma ordenada para respectar la
+                circulación de la savia.
+                </div>
+                <div class="w3-third w3-panel">
+                    <img src="./img/poda.jpg" class="w3-round-large" width="100%">
+                </div>
+            </div>
+            <p></p>
+            
+            <div class="w3-row">
+                <div class="w3-twothird">
+                    Además, para el control de las plagas y enfermedades en el viñedo, se debe realizar un
+                    seguimiento de daños o síntomas en los distintos órganos de la planta, y evaluar el daño antes
+                    de realizar algún tipo de actuación.
+                    <p>
+                    Toda esta información sobre plagas es una adaptación de la Guía de Gestión Integrada Plagas Uva de
+                    Transformación publicada por el Ministerio de Agricultura, Pesca y Alimentación. Para la identificación
+                    de las plagas y enfermedades, se recomienda el uso de la aplicación
+                    <a href='https://fcc.uca.es/web/vinamecum/' target="_blank">Viñamecum</a>.
+                    <p>
+                    La prevención de los daños causados por plagas se debe
+                    basar, entre otros, en la protección mediante el uso de
+                    enemigos naturales, la elección de especies, variedades y
+                    materiales heterogéneos, el incremento de la biodiversidad
+                    favoreciendo flora que ofrezca hábitat y alimento para
+                    especies de insectos auxiliares.
+                </div>
+                <div class="w3-third">
+                    <div class="w3-panel">
+                        <img src="./img/rosal.jpg" class="w3-round-large" width="100%">
+                    </div> 
+                    <div>
+                        La implantación de rosales en el inicio de la hilera en el
+                        viñedo, es una práctica antigua que se empleaba para el
+                        monitoreo de enfermedades criptogámicas.
+                    </div>
+                </div>
+            </div>
+            
+            <p></p>
+            <div class="w3-border w3-round-large w3-panel w3-pale-red w3-justify">
+                <b>A continuación, se recogen las principales plagas y enfermedades que
+                    podrían generar daños en los viñedos del Marco de Jerez, así como las pautas
+                    para su seguimiento y estimación del daño. 
+                    La información que se incluye en este apartado es una adaptación de la que se recoge en la Guía de Gestión  Integrada Plagas Uva de Transformación publicada por el MAPA.</b>
+            </div>
+            <p></p>
+            <div>
+                <h3><b>Polilla del racimo (<i>Lobesia botrana</i>)</b></h3>
+                <div class="w3-row w3-panel">
+                    <div class="w3-twothird">
+                        <b>Seguimiento y estimación del riesgo para el cultivo</b><br>
+                        Mediante trampas sexuales para seguimiento de vuelos. La curva
+                        del vuelo indica cuándo iniciar los controles de la puesta de
+                        huevos sobre los racimos.
+                        <p></p>
+                        <b>Umbral/Momento de intervención</b><br>
+                        La primera generación no se recomienda tratar excepto en casos
+                        excepcionales. La segunda a partir del 10% de racimos con puesta
+                        y en tercera generación a partir del 5%.
+                    </div>
+                    <div class="w3-third w3-panel">
+                        <img src="./img/polilla.jpeg" class="w3-round-large" width="100%">
+                    </div>
+                </div>
+                <p></p>
+                <div class="w3-sand w3-round-large w3-panel">
+                    <b>Medidas de prevención y/o culturales</b><br>
+                    Elegir un sistema de poda y conducción que faciliten la aireación de los órganos fructíferos
+                    <p></p>
+                    <b>Medidas alternativas al control químico</b><br>
+                    Confusión sexual, siempre que las condiciones de la parcela lo permitan.
+                </div>
+            </div>
+
+            <p></p>
+            <div>
+                <h3><b>Mosquito verde (<i>Jacobiasca lybica</i>)</b></h3>
+                <div class="w3-row w3-panel">
+                    <div class="w3-twothird">
+                        <b>Seguimiento y estimación del riesgo para el cultivo</b><br>
+                        Realizar muestreo desde botones florales separados (H) hasta el
+                        final del ciclo de cultivo. Muestra de 4 hojas al azar por cepa, en
+                        25 cepas.
+                        <p></p>
+                        <b>Umbral/Momento de intervención</b><br>
+                        Presencia de 2 insectos/hoja.
+                    </div>
+                    <div class="w3-third w3-panel">
+                        <img src="./img/mosquitoVerde.jpeg" class="w3-round-large" width="100%">
+                    </div>
+                </div>
+                <p></p>
+                <div class="w3-sand w3-round-large w3-panel">
+                    <b>Medidas de prevención y/o culturales</b><br>
+                    No se han identificado dentro del marco de este proyecto.
+                    <p></p>
+                    <b>Medidas alternativas al control químico</b><br>
+                    Lucha biológica con especies como: Amblyseius degenerans, Amblyseius cucumeris y Orius
+                    majusculus.
+                </div>
+            </div>
+
+
+            <p></p>
+            <div>
+                <h3><b>Melazo (<i>Planococcus citri</i>)</b></h3>
+                <div class="w3-row w3-panel">
+                    <div class="w3-twothird">
+                        <b>Seguimiento y estimación del riesgo para el cultivo</b><br>
+                        Observar la presencia de melazo en las cepas durante la parada
+                        invernal. Durante desarrollo de la planta evaluar la presencia en
+                        10 racimos/cepa en 10 plantas.                        
+                        <p></p>
+                        <b>Umbral/Momento de intervención</b><br>
+                        Actuar siempre que se detecten focos.
+                    </div>
+                    <div class="w3-third w3-panel">
+                        <img src="./img/melazo.png" class="w3-round-large" width="100%">
+                    </div>
+                </div>
+                <p></p>
+                <div class="w3-sand w3-round-large w3-panel">
+                    <b>Medidas de prevención y/o culturales</b><br>
+                    Descortezar tronco y brazos de la cepa antes del invierno. Deshojado y poda en verde “castra” para
+                    evitar condiciones favorables de humedad y mejorar el tratamiento en racimos afectados con
+                    productos autorizados. Realizar un seguimiento de las hormigas de la parcela.
+                    <p></p>
+                    <b>Medidas alternativas al control químico</b><br>
+                    Medios biológicos: Sueltas de insectos predadores en abril (Anagyrus pseudococci) y junio
+                    (Cryptolaemus montrouzieri).<br>
+                    Medios biotecnológicos: Empleo de confusión sexual.
+                </div>
+            </div>
+
+
+            <p></p>
+            <div>
+                <h3><b>Araña amarilla común (<i>Tetranychus urticae</i>)</b></h3>
+                <div class="w3-row w3-panel">
+                    <div class="w3-twothird">
+                        <b>Seguimiento y estimación del riesgo para el cultivo</b><br>
+                        Desde inicio de floración hasta envero, observar el porcentaje de
+                        cepas con síntomas y presencia de plaga en hojas.
+                        <p></p>
+                        <b>Umbral/Momento de intervención</b><br>
+                        Se deberá realizar tratamiento con productos autorizados cuando
+                        se sobrepasen los siguientes umbrales:
+                        <ul class="w3-ul">
+                        <li>Inicio de floración: 5% de cepas con síntomas.</li>
+                        <li>Cuajado: 25% de cepas con síntomas.</li>
+                        <li>Inicio de envero: 40% de cepas con síntomas.</li>
+                        </ul>
+                    </div>
+                    <div class="w3-third w3-panel">
+                        <img src="./img/arania.jpeg" class="w3-round-large" width="100%">
+                    </div>
+                </div>
+                <p></p>
+                <div class="w3-sand w3-round-large w3-panel">
+                    <b>Medidas de prevención y/o culturales</b><br>
+                    Favorecer ventilación del cultivo con podas en verde.
+                    <p></p>
+                    <b>Medidas alternativas al control químico</b><br>
+                    Medios biológicos:<br>
+                    Empleo de depredadores naturales (Stethorus punctillum, Chrysoperla carnea, Typhlodromus,
+                    Euseius o Amblyseius).
+                </div>
+            </div>
+
+
+            <p></p>
+            <div>
+                <h3><b>Caracoles (<i>Teba pisana</i>)</b></h3>
+                <div class="w3-row w3-panel">
+                    <div class="w3-twothird">
+                        <b>Seguimiento y estimación del riesgo para el cultivo</b><br>
+                        Seguimiento del porcentaje de daños sobre 4 hojas/cepa en 25
+                        cepas al azar.
+                        <p></p>
+                        <b>Umbral/Momento de intervención</b><br>
+                        Un 1% de hojas con ataques.
+                    </div>
+                    <div class="w3-third w3-panel">
+                        <img src="./img/caracol.jpeg" class="w3-round-large" width="100%">
+                    </div>
+                </div>
+                <p></p>
+                <div class="w3-sand w3-round-large w3-panel">
+                    <b>Medidas de prevención y/o culturales</b><br>
+                    Mantener la parcela limpia de vegetación.
+                    <p></p>
+                    <b>Medidas alternativas al control químico</b><br>
+                    Medios físicos:<br>
+                    Colocar láminas de cobre en el tronco de las cepas.
+                </div>
+            </div>
+
+            <p></p>
+            <div>
+                <h3><b>Mildiu (<i>Plasmopara viticola</i>)</b></h3>
+                <div class="w3-row w3-panel">
+                    <div class="w3-twothird">
+                        <b>Seguimiento y estimación del riesgo para el cultivo</b><br>
+                        A partir de 10-15 cm de brote revisar cepas en busca de síntomas.
+                        Emplear estaciones meteorológicas y modelos predictivos de
+                        riesgos adaptados a la zona.
+                        <p></p>
+                        <b>Umbral/Momento de intervención</b><br>
+                        De forma general, realizar tratamientos preventivos con los
+                        insumos autorizados.
+                    </div>
+                    <div class="w3-third w3-panel">
+                        <img src="./img/mildiu.jpeg" class="w3-round-large" width="100%">
+                    </div>
+                </div>
+                <p></p>
+                <div class="w3-sand w3-round-large w3-panel">
+                    <b>Medidas de prevención y/o culturales</b><br>
+                    Poda en verde, desnietados y despuntes, así como deshojados realizados tras la floración y cuajado.
+                    No labrar próximo a la floración.
+                    <p></p>
+                    <b>Medidas alternativas al control químico</b><br>
+                    Biofungicida.
+                </div>
+            </div>
+
+            <p></p>
+            <div>
+                <h3><b>Oídio (<i>Erysiphe necator</i>)</b></h3>
+                <div class="w3-row w3-panel">
+                    <div class="w3-twothird">
+                        <b>Seguimiento y estimación del riesgo para el cultivo</b><br>
+                        Detectar los primeros síntomas sobre hojas y racimos
+                        inspeccionados.
+                        <p></p>
+                        <b>Umbral/Momento de intervención</b><br>
+                        De forma general, realizar tratamientos preventivos con los
+                        insumos autorizados.
+                    </div>
+                    <div class="w3-third w3-panel">
+                        <img src="./img/oidio.jpeg" class="w3-round-large" width="100%">
+                    </div>
+                </div>
+                <p></p>
+                <div class="w3-sand w3-round-large w3-panel">
+                    <b>Medidas de prevención y/o culturales</b><br>
+                    Realizar poda en verde, despampanado, desnietado y deshojado para mejorar aireación del racimo.
+                    <p></p>
+                    <b>Medidas alternativas al control químico</b><br>
+                    Biofungicida.
+                </div>
+            </div>
+
+            <p></p>
+            <div>
+                <h3><b>Podredumbre gris (<i>Botrytis cinerea</i>)</b></h3>
+                <div class="w3-row w3-panel">
+                    <div class="w3-twothird">
+                        <b>Seguimiento y estimación del riesgo para el cultivo</b><br>
+                        Detectar los primeros síntomas sobre hojas y racimos
+                        inspeccionando.
+                        <p></p>
+                        <b>Umbral/Momento de intervención</b><br>
+                        De forma general, realizar tratamientos preventivos con los
+                        insumos autorizados.
+                    </div>
+                    <div class="w3-third w3-panel">
+                        <img src="./img/podredumbre.jpeg" class="w3-round-large" width="100%">
+                    </div>
+                </div>
+                <p></p>
+                <div class="w3-sand w3-round-large w3-panel">
+                    <b>Medidas de prevención y/o culturales</b><br>
+                    Realizar poda en verde, despampanado, desnietado y deshojado para mejorar aireación del racimo.
+                    <p></p>
+                    <b>Medidas alternativas al control químico</b><br>
+                    Fungicida biológico.
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="./img/practicasAbajo.jpg" style="width: 100%; opacity: 0.7;">
+</div>
+
+
+<!-- Experiencia -->
+<div id="experiencia">
+    <p><p><p></p>
+    <div class="w3-content">
+        <div class="w3-panel w3-justify">
+            <h2>Experiencia de cultivo ecológico.</h2>
+            <div class="w3-border w3-round-large w3-panel">
+                <b>Finca Piloto:</b> Viña Dos Mercedes (<a href='https://www.williams-humbert.com' target="_blank">Williams &amp; Humbert</a>)<br>
+                <b>Superficie:</b>  35 hectáreas (aprox.) en producción ecológica.<br>
+                <b>Ubicación:</b> Pago Carrascal, Jerez de la Frontera, Cádiz<br>
+                <b>Variedades:</b> Palomino Fino (30 ha) y Pedro Ximénez (5 ha).<br><br>
+                <img src="./img/exp.png" width="100%" class="w3-round-large"><br><br>
+            </div>
+            <p></p>
+            <h3><b>Experiencia 1</b></h3>
+            <div>
+                <div class="w3-justify">
+                    <b>Recuperación de la variedad Pedro Ximénez,</b> variedad autóctona andaluza, con adaptación a las
+                    condiciones de un clima cálido.<br>
+                    Esta variedad ya se cultivaba en el Marco de Jerez en el siglo XVI, según los textos encontrados en el
+                    archivo de la Fundación Casa Medina Sidonia (Sanlúcar de Barrameda). Dentro del contexto de este
+                    proyecto innovador, se ha comprobado que el comportamiento de esta variedad ha destacado por
+                    su gran adaptabilidad y resistencia a los efectos del cambio climático, en comparación con otras
+                    variedades de la zona como la palomino y la moscatel.
+                </div>
+                <div class="w3-panel">
+                    <img src="./img/exp1.jpeg" width="100%" class="w3-round-large">
+                    <div>Viñedo de Dos Mercedes,
+                        variedad Pedro Ximénez.</div>
+                </div>
+            </div>
+            <h3><b>Experiencia 2</b></h3>
+            <div class="w3-row">
+                <div class="w3-justify w3-third">
+                    <b>El control biológico:</b> consiste en la suelta de enemigos
+                    naturales. Esta es una práctica de control autorizada en el
+                    cultivo ecológico.<br>
+                    En caso de detectar un aumento poblacional por encima del
+                    umbral de detección recomendado para una determinada
+                    especie animal, hay que proceder a su control haciendo uso
+                    de insectos depredadores o parasitoides.<br>
+                    En Williams & Humbert se emplea como estrategia
+                    de control la lucha biológica contra plagas
+                    conocidas como melazo o cochinilla algodonosa
+                    (Planococcus ficus) y araña amarilla (Tetranychus
+                    urticae Koch).
+                </div>
+                <div class="w3-twothird w3-panel">
+                    <div class="w3-row">
+                        <img src="./img/exp21.jpeg" width="100%" class="w3-round-large w3-half w3-border-white">
+                        <img src="./img/exp22.jpeg" width="100%" class="w3-round-large w3-half w3-border-white">
+                    </div>
+                    <div>
+                        Colocación de bote con insectos
+                        auxiliares para control de melazo y
+                        bolsa para control de araña amarilla.
+                    </div>
+                </div>
+            </div>
+            <h3><b>Experiencia 3</b></h3>
+            <div class="w3-row">
+                <div class="w3-justify w3-third">
+                    <b>Manejo del Suelo.</b> El laboreo del suelo es la práctica
+                    más extendida para manejo del suelo en esta zona. Esta
+                    práctica se puede emplear como alternativa al uso de
+                    aplicación de herbicidas para la eliminación de plantas
+                    adventicias o “malas hierbas” que puedan generar
+                    competencia por el agua al cultivo de la vid.<br>
+                    El viñedo del marco de Jerez se ubica en terrenos de
+                    secano, por lo que el mantenimiento de cubiertas
+                    vegetales permanentes no es una práctica muy
+                    extendida. Aun así, se pueden observar cubiertas de
+                    vegetación espontaneas temporales, durante el periodo
+                    de parada vegetativa del cultivo.<br>
+                    La eliminación de las plantas puede realizarse mediante
+                    escarda mecanizada o manual. Además, entre las
+                    prácticas de laboreo se podría incluir la práctica del
+                    aserpiado, que se realiza para contrarrestar la erosión
+                    en los terrenos de viñedos en pendiente.
+                </div>
+                <div class="w3-twothird w3-panel">
+                    <div class="w3-row">
+                        <img src="./img/exp31.jpeg" class="w3-half w3-round-large w3-border-white" width="20%">
+                        <img src="./img/exp32.jpeg" class="w3-half w3-round-large w3-border-white" width="50%">
+                    </div>
+                    <img src="./img/exp33.jpeg" class="w3-round-large w3-border-white" width="100%">
+                    <div>
+                        Aserpiado práctica vitícola característica
+                        del Marco de Jerez, cubierta vegetal
+                        espontanea y laboreo como alternativa al
+                        control químico.
+                    </div>
+                </div>
+            </div>
+            <h3><b>Experiencia 4</b></h3>
+            <div class="w3-row">
+            <div class="w3-justify w3-twothird">
+                La poda vara y pulgar es otra práctica que ha
+                caracterizado el manejo del viñedo en el marco
+                de Jerez.<br>
+                Cepa de Palomino Fino con poda
+                vara y pulgar.<br>
+                Esta práctica es más respetuosa con la integridad
+                de la planta permitiendo que los viñedos duren
+                más tiempo.<br>
+                Esta poda se acompaña, de la eliminación de
+                brotes secundarios en primavera, poda en verde
+                que en esta región se denomina “castra”.<br>
+                Se recomiendan realizar varios pases de “castra”
+                durante el crecimiento de la planta.
+            </div>
+            <div class="w3-third w3-panel">
+                <img src="./img/exp4.jpeg" width="100%" class="w3-round-large">
+                Cepa de Palomino Fino con poda
+                vara y pulgar.
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            <!-- Foot Image-->
+            <div id="sponsors" class="w3-row">
+                <div class="w3-twothird w3-container">
+                    <div class="w3-opacity">
+                        SOCIOS:
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-col"  style="width:20%">
+                            <a href="https://www.dipucadiz.es/" target="_blank"><img src="./img/Logodipucadiz.svg.png" width="65%;"></a>
+                        </div>
+                        <div class="w3-col"  style="width:20%">
+                            <a href="https://www.sherry.wine/es/marco-de-jerez/el-consejo-regulador" target="_blank">
+                                <img src="./img/denominacionOrigen.jpg" width="40%;"></a>
+                        </div>
+                        <div class="w3-col"  style="width:20%">
+                            <a href="https://www.ecovalia.org/" target="_blank"><img src="./img/logo-ecovalia.png" width="65%;"></a>
+                        </div>
+                        <div class="w3-col"  style="width:20%">
+                            <a href="https://www.uca.es" target="_blank"><img src="./img/uca1.jpg" width="40%;"></a>
+                        </div>
+                        <div class="w3-col"  style="width:20%">
+                            <a href="https://www.williams-humbert.com/" target="_blank"><img src="./img/wh.png" width="45%;"></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="w3-third w3-container">
+                    <div class="w3-opacity">
+                        FINANCIADO POR:
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-third w3-container">
+                            <a href="https://www.juntadeandalucia.es/organismos/agriculturapescaaguaydesarrollorural.html" target="_blank"><img src="./img/logo-ja.png" width="130%;"></a>
+                        </div>
+                        <div class="w3-third w3-container">
+                            <a href="https://agriculture.ec.europa.eu/index_es" target="_blank"></a><img src="./img/ue.png" width="100%;"></a>
+                        </div>
+                        <div class="w3-third w3-container">
+                            <a href="https://iticadiz.es/" target="_blank"><img src="./img/iti_imagen_corporativa_cadigrafia-04.jpg" width="110%;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Foot Image-->
+
+
+
+<!-- Foot Image-->
+<div id="heading_image">
+    <div class="w3-content" style="max-width:2000px">
+        <div class="w3-display-container w3-center">
+            <img src="./img/portada1.jpg" style="width: 100%;">
+        </div>
+    </div>  
+</div>
+<!-- Fin Foot Image-->
+    
+
 
