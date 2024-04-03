@@ -1,0 +1,29 @@
+{
+    "short_name": "Viñamecum",
+    "name": "Viñamecum",
+    "description":"Todo sobre las enfermedades de la vid",
+    "start_url": "https://fcc.uca.es/web/vinamecum/",
+    "scope": "/web/vinamecum/",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/vm-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "img/vm-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "img/vm-maskable_icon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#333333",
+    "background_color": "#777777"
+}
